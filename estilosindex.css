@@ -1,0 +1,46 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/74/c9/80/74c9807b1aa877d59675dab52738d6de.png);
+    background-size: cover;
+}
+
+.contenedor {
+    background-color: darkturquoise;
+    text-align: center;
+    width: 500px;
+    height: 80px;
+    float: left;
+    transform: rotate(-20deg) translate(20%, 80%);
+
+}
+
+h1 {
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 12ch;
+    padding: 2.5%;
+
+    animation: typing 3s steps(12), blink 0.5s infinite, step-end, alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+button {
+    background-color: crimson;
+    border: solid 4px;
+    padding: 15px;
+    font-size: 115%;
+    box-sizing: border-box;
+    font-family: monospace;
+}

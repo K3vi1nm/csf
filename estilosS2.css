@@ -1,0 +1,83 @@
+body {
+    background-image: url(https://media2.giphy.com/media/zqfyITjHyMzF6/source.gif);
+    background-size: 1550px;
+    background-size: cover;
+}
+h1 {
+    background-color: rgba(85, 107, 47, 0.295);
+    text-align: center;
+    border-radius: 30px;
+    color: aqua;
+}
+/* .container_reus{
+    display: flex;
+    justify-content:right;
+    
+} */
+.reus {
+    background-color: rgba(85, 107, 47, 0.295);
+    text-align: center;
+    width: 300px;
+    height: auto;
+}
+p {
+    font-family: monospace;
+    color: aliceblue;
+}
+b {
+    color: aqua;
+    font: size 20px;
+}
+.container_primero {
+    display: flex;
+    justify-content: center;
+    /* transform: rotate(-20deg) */
+}
+.primero {
+    background-color: rgba(85, 107, 47, 0.295);
+    color: blue;
+    text-align: center;
+    width: 300px;
+    height: auto;
+}
+.container_segundo {
+    display: flex;
+    justify-content: right;
+}
+.segundo {
+    background-color: rgba(85, 107, 47, 0.295);
+    text-align: center;
+    width: 300px;
+    height: auto;
+    display: flex;
+}
+.container_tercero {
+    justify-content: center;
+    display: flex;
+}
+.tercero {
+    background-color: rgba(85, 107, 47, 0.295);
+    text-align: center;
+    width: 300px;
+    height: auto;
+    /*-ms-transform: rotate(-20deg);  IE 9 */
+    /* -webkit-transform: rotate(-20deg); Safari */
+    /* transform: rotate(18deg) translate(40%, -60%) */
+}
+.cuarto {
+    background-color: rgba(85, 107, 47, 0.295);
+    text-align: center;
+    width: 300px;
+    height: auto;
+    display: flex;
+}
+button {
+    background-color: aqua;
+    color: rgb(8, 51, 22);
+    border: solid 4px;
+    border-radius: 70px;
+    padding: 15px 15px;
+    font-size: 115%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
